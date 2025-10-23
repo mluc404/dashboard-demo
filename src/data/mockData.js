@@ -7,7 +7,7 @@ export const demographicData = [
         state: 'California', year: 2021, population: 39556223, medianAge: 36.7, medianIncome: 81200, ageDistribution: { '0-17': 21.8, '18-34': 23.7, '35-54': 26.5, '55-74': 19.5, '75+': 8.5 }
     },
     {
-        state: 'California', year: 2022, population: 3968223, medianAge: 36.9, medianIncome: 84500, ageDistribution: { '0-17': 21.5, '18-34': 24.0, '35-54': 26.2, '55-74': 19.8, '75+': 8.5 }
+        state: 'California', year: 2022, population: 39682257, medianAge: 36.9, medianIncome: 84500, ageDistribution: { '0-17': 21.5, '18-34': 24.0, '35-54': 26.2, '55-74': 19.8, '75+': 8.5 }
     },
     {
         state: 'California', year: 2023, population: 40538223, medianAge: 37.1, medianIncome: 87200, ageDistribution: { '0-17': 21.2, '18-34': 24.3, '35-54': 25.9, '55-74': 20.1, '75+': 8.5 }

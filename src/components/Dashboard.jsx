@@ -4,8 +4,8 @@ import { PopulationChart } from "./PopulationChart";
 import { AgeChart } from "./AgeChart";
 import './Dashboard.css'
 
-const Dashboard = ({selectedState, selectedYear, onStateChange, onYearChange, states, years, currentData}) => {
-    console.log('current Data',currentData)
+const Dashboard = ({selectedState, selectedYear, onStateChange, onYearChange, states, years, currentData, stateData}) => {
+    // console.log('current Data',currentData)
 
     return (
         <div className="dashboard-container">
@@ -21,7 +21,7 @@ const Dashboard = ({selectedState, selectedYear, onStateChange, onYearChange, st
             <SummaryCards data={currentData} />
 
             <div className="chart-container">
-                <PopulationChart />
+                <PopulationChart stateData={stateData} years={years}/>
                 <AgeChart />
             </div>
         

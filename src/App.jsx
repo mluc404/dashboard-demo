@@ -11,9 +11,19 @@ function App() {
   // Filter data based on selected state and year
   // useMemo to prevent re-filter if neither of state or year changes
   const filteredData = useMemo(()=>{
-    const output = demographicData.filter(item => item.state === selectedState && item.year === selectedYear);
     return demographicData.filter(item => item.state === selectedState && item.year === selectedYear);
       }, [selectedState, selectedYear])
+
+
+  // Get population over the year for selected State
+  // const statePopData = useMemo(() => {
+  //   return demographicData.filter(item => item.state === selectedState).map(item => item.population);
+  // }, [selectedState])
+
+  // Filter data based on State only, for charts
+  const stateData = useMemo(() =>{
+     return demographicData.filter(item =>item.state === selectedState)
+  }, [selectedState])
 
   return (
     <>
@@ -27,6 +37,7 @@ function App() {
         states={states}
         years={years}
         currentData={filteredData[0]}
+        stateData={stateData}
         />
       </div>
     </>

@@ -1,4 +1,5 @@
 .population-chart-container {
-    background-color: #cdcdcd;
+    background-color: #ffffff;
     flex: 1;
+    padding: 5px;
 }
