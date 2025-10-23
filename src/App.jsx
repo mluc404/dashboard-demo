@@ -26,6 +26,7 @@ function App() {
         onYearChange={setSelectedYear}
         states={states}
         years={years}
+        currentData={filteredData[0]}
         />
       </div>
     </>
