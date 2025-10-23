@@ -22,7 +22,7 @@ const Dashboard = ({selectedState, selectedYear, onStateChange, onYearChange, st
 
             <div className="chart-container">
                 <PopulationChart stateData={stateData} years={years}/>
-                <AgeChart />
+                <AgeChart data={currentData}/>
             </div>
         
         </div>
