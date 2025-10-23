@@ -17,7 +17,8 @@
 .card-icon img {
     width: 26px;
     height: 26px;
-    filter: brightness(0) saturate(100%) invert(27%) sepia(21%) saturate(2878%) hue-rotate(216deg) brightness(124%) contrast(97%);
+    filter: brightness(0) saturate(100%) invert(27%) sepia(21%) saturate(2878%) hue-rotate(216deg) brightness(155%) contrast(97%);
+    /* filter: brightness(0) saturate(100%) invert(27%) sepia(21%) saturate(2878%) hue-rotate(216deg) brightness(124%) contrast(97%); */
 }
 
 .card-icon {
@@ -47,7 +48,7 @@
 
 .stat-value {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
     color: #683fe3
 }
