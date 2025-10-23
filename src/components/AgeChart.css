@@ -1,5 +1,11 @@
 .age-chart-container {
     background-color: #ffffff;
     flex: 1;
-    padding: 5px;
+    padding: 10px;
+    border: #d6d6d6 solid 2px;
+    border-radius: 5px;
+}
+
+.chart-name {
+    padding-left: 20px;
 }

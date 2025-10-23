@@ -1,11 +1,11 @@
 .dashboard-container {
     width: 100%;
-    min-width: 800px;
+    min-width: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 32px;
     
 }
 
