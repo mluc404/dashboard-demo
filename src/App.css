@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f1f8ff;
-    margin: 0;
+    margin: 0 0 0 0 ;
     padding: 0;
     min-height: 100vh;
     display: flex;
@@ -9,3 +9,15 @@ body {
     width: 100%;
 }
 
+.dashboard-title {
+    margin: 50px 0 0 0;
+    color: #6c42eb;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.title-tagline {
+    margin: 10px 0 50px 0;
+    font-size: 1.1rem;
+    color:#727272;
+}

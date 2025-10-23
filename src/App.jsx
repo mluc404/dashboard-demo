@@ -28,7 +28,10 @@ function App() {
   return (
     <>
       <div>
-        <h1>U.S. Demographics</h1>
+        <div className='header'>
+          <h1 className='dashboard-title'>U.S. Demographics</h1>
+          <p className='title-tagline'>Explore population, income, and demographic trends across the United States</p>
+        </div>
         <Dashboard 
         selectedState={selectedState}
         selectedYear={selectedYear}

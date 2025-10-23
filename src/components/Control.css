@@ -1,8 +1,28 @@
 
 .control-container {
-    background-color: #d7d7ff;
-    width: 100%;
+    width: 60%;
     display: flex;
-    gap: 20px
+    justify-content: space-between;
+    align-self: flex-start;
+    gap: 60px
 }
 
+.control-group {
+    flex:1;
+}
+
+.control-name {
+    margin: 0 0 5px 0;
+    font-weight: 550;
+    font-size: 1rem;
+    color:#454545
+}
+
+.control-select {
+    font-size: 1rem;
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: #d6d6d6 solid 1px;
+    color:#727272;
+}

@@ -8,7 +8,7 @@ export const PopulationChart = ({stateData}) => {
     return (
         <div className="population-chart-container">
             <h3 className='chart-name'>Population Trend</h3>
-            <ResponsiveContainer width='100%' height={300}>
+            <ResponsiveContainer width='100%' height={250}>
                 <LineChart data={stateData}>
                 <CartesianGrid strokeDasharray={'5 5'} opacity={'0.5'}/>
                     <XAxis 

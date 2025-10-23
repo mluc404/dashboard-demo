@@ -1,5 +1,7 @@
-import { createMultiMaterialObject } from 'three/examples/jsm/utils/SceneUtils.js';
 import './SummaryCards.css'
+import groupIcon from '../assets/group.svg'
+import moneyIcon from '../assets/money.svg'
+import calendarIcon from '../assets/calendar.svg'
 
 
 export const SummaryCards = ({ data }) => {
@@ -22,24 +24,39 @@ export const SummaryCards = ({ data }) => {
     return (
         <div className='summary-card-container'>
             <div className="summary-card">
-                <div className="card-icon"></div>
+                <div className="card-icon">
+                    <img 
+                    src={groupIcon} 
+                    alt="Group Icon"
+                    />
+                </div>
                 <div className="card-content">
-                    <h4>Population</h4>
-                    <p>{formatPopulation(data.population)}</p>
+                    <h4 className='stat-key'>Population</h4>
+                    <p className='stat-value'>{formatPopulation(data.population)}</p>
                 </div>
             </div>
             <div className="summary-card">
-                <div className="card-icon"></div>
+                <div className="card-icon">
+                <img 
+                    src={moneyIcon} 
+                    alt="Group Icon"
+                    />
+                </div>
                 <div className="card-content">
-                    <h4>Median Income</h4>
-                    <p>{formatCurrency(data.medianIncome)}</p>
+                    <h4 className='stat-key'>Median Income</h4>
+                    <p className='stat-value'>{formatCurrency(data.medianIncome)}</p>
                 </div>
             </div>
             <div className="summary-card">
-                <div className="card-icon"></div>
+                <div className="card-icon">
+                <img 
+                    src={calendarIcon} 
+                    alt="Group Icon"
+                    />
+                </div>
                 <div className="card-content">
-                    <h4>Median Age</h4>
-                    <p>{data.medianAge} years</p>
+                    <h4 className='stat-key'>Median Age</h4>
+                    <p className='stat-value'>{data.medianAge} years</p>
                 </div>
             </div>
         </div>

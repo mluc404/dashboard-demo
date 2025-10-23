@@ -12,7 +12,7 @@ export const AgeChart = ({data}) => {
     return (
         <div className="age-chart-container">
             <h3 className='chart-name'>Age Distribution</h3>
-            <ResponsiveContainer width='100%' height={300}>
+            <ResponsiveContainer width='100%' height={250}>
                 <BarChart data={chartData}>
                 <CartesianGrid strokeDasharray={'5 5'} opacity={'0.5'}/>
                 <Tooltip />
