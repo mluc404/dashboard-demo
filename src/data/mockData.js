@@ -34,3 +34,7 @@ export const demographicData = [
 
     //
 ]
+
+
+export const states = [...new Set(demographicData.map(item =>item.state))].sort();
+export const years = [...new Set(demographicData.map(item =>item.year))].sort();

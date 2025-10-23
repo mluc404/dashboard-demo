@@ -2,4 +2,7 @@
 .control-container {
     background-color: #d7d7ff;
     width: 100%;
+    display: flex;
+    gap: 20px
 }
+
